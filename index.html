@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
 
     <title>changing letters</title>
-    <link rel="stylrsheet" href="src/index.css" />
+    <link rel="stylesheet" href="src/index.css" />
     <body>
-      <h1>Convert uppercase to lower case and vice versa</h1>
-      <input id="inputText" placeholder="input your text..." />
-      <br />
-      <button onclick="convertText()">change</button>
-
-      <h2 id="result">result</h2>
+      <div class="app">
+        <h1>Convert uppercase to lower case and vice versa</h1>
+        <div class="box" id="box">
+          <input
+            class="inputText"
+            id="inputText"
+            placeholder="input your text..."
+          />
+          <br />
+          <button onclick="convertText()">change</button>
+        </div>
+        <h2 id="result">result</h2>
+      </div>
     </body>
     <script src="src/index.js"></script>
   </head>
