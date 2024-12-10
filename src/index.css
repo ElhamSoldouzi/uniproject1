@@ -14,7 +14,22 @@ body {
 
 .inputText {
   margin-right: 30px;
+  background-color: #f0f5ff;
+  border: none;
+  border-radius: 8px;
+  max-width: 80%;
+  width: 80%;
+  padding: 15px 20px;
+  margin: 10px auto;
 }
 .box {
   display: flex;
+}
+
+.button {
+  background-color: hsla(233, 88%, 90%, 0.871);
+  border: none;
+  border-radius: 8px;
+  margin: 9px auto;
+  padding: 0px 20px;
 }
